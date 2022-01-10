@@ -1,7 +1,8 @@
-#include <iostream>
+// #include <iostream>
+#include "inc/hw.h"
 
 int main(int argc, char** argv)
 {
-	std::cout << "Hello World" << std::endl;
+	helloWorld();
 	return 0;
 }
